@@ -1,0 +1,252 @@
+.sidebar a:nth-child(2) { 
+  color: green;
+}
+.sidebar-menu__item-icon2 {
+  filter: invert(46%) sepia(27%) saturate(315%) hue-rotate(88deg) brightness(94%) contrast(92%);
+}
+#main {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  width: 84%;
+  height: 600px;
+  margin-left: 15%;
+}
+
+#cont_main {
+  width: 1120px;
+}  
+#weekdays {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  color: #2c2c2c;
+  background-color: #f0f0f0;
+}
+#weekdays div {
+  width: 160px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #f0f0f0;
+  border: 1px solid #b9b9b9; 
+  text-align: center;
+  padding: 2px 5px 2px 5px;
+}
+#calendar {
+ width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  width: 160px;
+  height: 80px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid #b9b9b9; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  text-align: right;
+  padding: 5px;
+}
+.day + #currentDay { 
+  background-color:#cde8c4;
+}
+#header {
+  padding: 20px 0px 20px 0px;
+  color: #2c2c2c;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+#todayButton, #backButton, #nextButton {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+ #todayButton span, #backButton span, #nextButton span {
+  background: transparent;
+  height: 38px;
+  width: 38px;
+ font-size: 1.3rem;
+ line-height: 38px;
+ color: #2c2c2c;
+}
+/*          events        */
+.event { 
+  font-size: 10px;
+  padding: 3px;
+  color: white;
+  max-height: 55px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+#errorMessage {
+  font-size: 10px;
+  position: absolute;
+  background-color: white;
+  color: red;
+}
+/* popup */
+#newEventModal {
+display: none;
+z-index: 20;
+padding: 30px;
+background-color: white;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+border-radius: 30px;
+width: 350px;
+top: 2%;
+left: 25%;
+transform: translate(50%, 50%);
+position: absolute;
+}
+#deleteEventModal {
+  display: none;
+  z-index: 20;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  border-radius: 30px;
+  width: 300px;
+  top: 2%;
+  left: 27%;
+  transform: translate(50%, 50%);
+  position: absolute;
+  }
+#newEventModal h2, #deleteEventModal h2 {
+  color:#639173; 
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+}
+#newEventModal form {
+  background-color: white;
+}
+#eventTitleInput  {
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  height: 25px;
+  width: 90%;
+  padding: 2% 5% 2% 5%;
+  outline: 0;
+  background-color: #eeeeee;
+}
+#eventTitleInput:hover {
+  border: 1.5px solid #eeeeee;
+  background-color: white;
+}
+#eventTitleInput.error {
+  border: 1.5px solid red;
+}
+.exEvents {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%; /* top and bottom | left and right */
+  background-color: white;
+}
+.eventDates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%; 
+  background-color: white;
+}
+#newEventModal h3, .startDate h3, .endDate h3, #deleteEventModal p  {
+  font-size: 16px;
+  padding-top:4%;
+  background: white;
+}
+.startDate, .endDate {
+  width: 40%;
+  background-color: white;
+}
+.eventDates input {
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  width: 89%;
+  padding: 2% 5%;
+  outline: 0;
+  background-color: #eeeeee;
+}
+#eventText {
+font-size: 14px;
+}
+#modalBackDrop {
+display: none;
+top: 0px;
+left: 0px;
+z-index: 10;
+width: 100vw;
+height: 100vh;
+position: absolute;
+background-color: rgba(0,0,0,0.8);
+}
+/*           buttons          */
+.eventButtons {
+  justify-content: center;
+  padding: 10% 0% 0% 0%;
+  background-color: white;
+  margin: 0 auto;
+  gap: 15px;
+  display: flex;
+}
+#saveButton, #closeButton {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+  border: 1px solid #639173;
+  border-radius: 25px;
+  padding: 5px 30px;
+  font-size: 12px;
+  background: #639173;
+  position: relative;
+  cursor: pointer;
+}
+#cancelButton, #deleteButton {
+  display: inline-block;
+text-decoration: none;
+font-weight: 500;
+color: #639173;
+border: 1px solid #639173;
+border-radius: 25px;
+padding: 5px 30px;
+font-size: 12px;
+background-color: white;
+position: relative;
+cursor: pointer;
+}
+#deleteEventModal h3 {
+  padding: 3% 0% 0% 0%;
+}
+#status {
+  width: 73%;
+  height: 3%;
+  position: absolute;
+  top:95%;
+}
+#status h2 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.bg-success {
+ color: green;
+}
+.bg-error {
+ color: red;
+}
+
+

@@ -1,0 +1,60 @@
+.left {
+    float: left;
+    width: 700px;
+    height: 600px;
+}
+.logo {
+    width: 20%;
+    display: flex;
+    padding: 5% 10%;
+} 
+.z1 {
+    position: relative;
+    top: 80px;
+    left: 130px;
+    width: 80%;
+}  
+.right {
+    float:right;
+    min-width: 800px;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.right h1 {
+    color: #D88864;
+    font-size: 48px;
+    top: 15%;
+}
+.right h2 {
+    color: #D88864;
+    font-size: 24px;
+}
+.right p {
+    color: #2c2c2c; 
+    font-size: 16px;
+}
+.back-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid #639173;
+  border-radius: 25px;
+  padding: 7px 35px;
+  font-size: 12px;
+  background: #639173;
+  position: relative;
+  cursor: pointer;
+}
+h2, a {
+    text-align-last: center;
+    font-size: 12px;
+    color: #639173;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+

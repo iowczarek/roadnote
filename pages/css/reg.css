@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+}
+.left {
+    background:#f9f9f9;
+    width: 40%;
+    height: 750px;
+    border-radius: 0px 60px 60px 0px;
+}
+.logo {
+    width: 20%;
+    position: relative;
+    padding: 5% 10%;
+    background:#f9f9f9;
+} 
+.lp4 {
+    position: relative;
+    top: 125px;
+    left: 55px;
+    width: 77%;
+}  
+.right {
+    width: 60%;
+    height: 750px;
+   
+}
+.right h1 {
+    color: #639173;
+    font-size: 40px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    margin-top: 4%;
+    
+}
+.register {
+    margin: auto;
+    padding-top:2%;
+    width: 400px;
+    line-height: 35px;
+}
+
+
+
+.nick, .email, .passy {
+    border: 1px solid #639173;
+    border-radius: 30px;
+    height: 25px;
+    width: 90%;
+    padding: 5px 20px 4px 20px;
+    outline: 0;
+    background-color: transparent;
+}
+.login-submit {
+    display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid #639173;
+  border-radius: 25px;
+  padding: 7px 35px;
+  font-size: 12px;
+  background: #639173;
+  position: relative;
+  cursor: pointer;
+}
+h2 {
+    padding-top: 5px;
+}
+h2  {
+    line-height: 15px;
+    float:right;
+    font-size: 12px;
+    color: #639173;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register a {
+    line-height: 15px;
+    float:right;
+    font-size: 12px;
+    color: #639173;
+    font-weight: 600;
+    text-decoration: underline;
+} 
+.terms a {
+    line-height: 15px;
+    float:none;
+    font-size: 16px;
+    color: #2c2c2c;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.reg-buttons {
+    padding-top:3%;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    padding: 0px;
+    margin: auto;
+
+}
+
+
+
+
+

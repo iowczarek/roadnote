@@ -1,0 +1,274 @@
+.sidebar a:nth-child(4) { 
+    color: green;
+    
+}
+.sidebar-menu__item-icon4 {
+    filter: invert(46%) sepia(27%) saturate(315%) hue-rotate(88deg) brightness(94%) contrast(92%);
+  }
+.main {
+  padding-top: 100px;
+}
+#myDiv {
+  border: 1px solid red;
+}
+#map {
+    width: 70%;
+    height: 630px;
+    float: right;
+    margin-right: 2%;  
+}
+svg {
+    width:  100%;
+    height: 100%;
+}
+svg path {
+    cursor: pointer;
+}
+.container_headers h1  {
+    position:absolute;
+    background: transparent;
+    color: #2c2c2c;
+    font-size: 1rem;
+    margin-left: 19%;
+}
+#search-country {
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 18%;
+        display: flex;
+        width: 20%;
+      
+}
+#search-country #search-submit {
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  height: 22px;
+  width: 60%;
+  margin-left: 5%;
+  padding: 5px 20px 5px 30px;
+  outline: 0;
+  background-color: #eeeeee;
+}
+#search-country #search-submit:hover, #search-country #search-submit:focus {
+  border: 1.5px solid #eeeeee;
+  background-color: white;
+}
+#search-country #add_submit {
+  position: absolute;
+  right: 41%;
+  font-weight: 200;
+  font-size: 24px;
+   color:#2c2c2c;
+   background: transparent;
+   cursor: pointer;
+   border: none;
+}
+#stats {
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 20%;
+    line-height: 2rem;
+    width: 20%;
+}
+tr td:nth-child(2) {
+    color: #D88864;
+    text-align: right;
+  }
+#name {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    opacity: 0;
+    padding: 0px 5px;
+    font-size: 0.8rem;
+
+}
+#edit-btn span {
+    overflow: hidden;
+    margin-top: 5%;
+    position: absolute;
+    padding: 7px;
+    float:right;
+    right: 5%;
+    
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100;
+}
+#edit-btn span:hover {
+    background-color: #E8E8E8;
+    border-radius: 25px;
+}
+
+/* list  */
+.countries_popup { 
+    z-index: 8;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding:  20px;
+    color: #2c2c2c;
+    visibility: hidden;
+  }
+.open-popup{
+    visibility: visible;
+  }
+.head_popup {
+    display: flex; 
+    justify-content: space-between;
+    background: white;
+  }
+.head_popup a {
+    background: white;
+  }
+.countries_popup h2 {
+    font-size: 14px;
+    background: white;
+    color: #639173;
+    padding-bottom: 3px;
+  }
+.scroll-div span {
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 100;
+}
+.country_popup, .country_popup a {
+    background-color: white;
+  }
+.scroll-div {
+    width: 250px;
+    height: 200px;
+    background: white;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+#countries_list li {
+    background-color: white;
+  }
+  
+#countries_list {
+    font-size: 14px;
+    background-color: white;
+    
+    list-style: none;
+  }
+#picBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }
+  /* del confirm popup */
+#deleteCountry_popup{ 
+    z-index: 10;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    transform: translate(50%, 50%);
+    text-align: center;
+    padding:  30px;
+    color: #2c2c2c;
+    display: none;
+  }
+.cnt-open-popup{
+    visibility: visible;
+  }
+#popupContent {
+    background-color: white;
+  }
+  
+#deleteCountry_popup header {
+    color:#639173; 
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white; 
+  }
+#deleteCountry_popup p {
+    font-size: 16px;
+    padding-top: 8%;
+    padding-bottom: 15%;
+    background: transparent;
+  }
+#deleteCountry_popup a {
+    background-color: white;
+  }
+.country_buttons {
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  }
+.country_buttons a {
+    background-color: white;
+  }
+#country-yes-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #639173;
+  border: 1px solid #639173;
+  border-radius: 25px;
+  padding: 5px 30px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  background: white;
+}
+#canceling-btn {
+  text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid #639173;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background: #639173;
+    position: relative;
+    cursor: pointer;
+}
+.status  {
+  width: 15%;
+  margin-left: 19%;
+  position:absolute;
+  margin-top: 5%;
+}
+.status h2 {
+   font-size: 12px;
+   font-weight: 500;
+}
+.bg-success {
+  color: green;
+  font-size: 12px;
+   font-weight: 500;
+}
+.bg-error {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+}
+
+
+
+
+  
+ 

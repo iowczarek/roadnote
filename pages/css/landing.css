@@ -1,0 +1,102 @@
+#to_top {
+  background: #8DB383;
+  position: fixed;
+  bottom: 20px;
+  right: 32px;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+}
+/* ******************                     FIRSTBLOCK & THIRDBLOCK  START                   ************************ */
+.firstblock, .thirdblock {
+  position: relative;
+    outline-offset: 5px;
+    min-height: 80vh;
+    padding-top: 2%;
+    width: 100%;
+    background-color: #ffffff;
+    background-size: cover;   
+}
+.textbox1, .textbox3 {
+    width: 490px;
+    text-align: left;
+    color: #639173;
+    font-weight: 300;
+    padding-left: 10%;
+    float:left;
+    top: 50%;
+    left: 50%;
+    line-height: normal; 
+}
+.lp1 {
+  float:right;
+  width: 600px;
+  padding-right: 6%;
+  padding-top: 6%;
+}
+.textbox1 p, .textbox3 p {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  color:#000;
+  font-weight: 400;
+}
+.firstblock h4, .thirdblock h4 {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 50px;
+}
+/* ****************                SECONDBLOCK   START               *********************** */
+.secondblock {
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  outline-offset: 5px;
+  min-height: 80vh;
+  width: 100%;
+  background-color: #F9F9F9;
+  background-size: cover;   
+}    
+.secondblock h4 {
+margin-top: 60px;
+font-weight: 900;
+font-size: 50px;
+}
+.textbox2 {
+width: 450px;
+text-align: left;
+color: #D88864;
+font-weight: 300;
+padding-right: 13%;
+float:right;
+line-height: normal; 
+}
+.textbox2 p {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  color:#000;
+  font-weight: 400;
+}
+.lp2 {
+  float:left;
+  width: 600px;
+  padding-left: 10%;
+  padding-top: 5%; 
+}
+
+    /* ************               THIRDBLOCK   START             ************************* */
+    .thirdblock {
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+    .lp3 {
+      float:right;
+      width: 600px;
+      padding-right: 5%;
+      padding-top: 3%;
+    }

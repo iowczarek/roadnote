@@ -1,0 +1,29 @@
+.firstblock{
+    position: relative;
+    padding-top: 5%;
+    outline-offset: 5px;
+    min-height: 70vh;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    background-size: cover;
+  }
+  .firstblock h4 {
+    padding-left: 10%;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 30px;
+    color:#2C2C2C;
+  }
+  .firstblock p { 
+    padding-top: 2%;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+  padding-bottom: 15%;
+  color:#2C2C2C;
+  font-weight: 400;
+  }
+  .firstblock b {
+    font-weight: 500;
+  }

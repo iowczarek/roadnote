@@ -1,0 +1,128 @@
+.sidebar a:nth-child(5) { 
+    color: green;
+}
+.sidebar-menu__item-icon5 {
+    filter: invert(46%) sepia(27%) saturate(315%) hue-rotate(88deg) brightness(94%) contrast(92%);
+  }
+.main {
+    padding-top: 100px;
+    margin-left: 19%;
+}
+.randompic .photos-line {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+.randompic {
+    margin-left:2%;
+}
+.heading h1  {
+    background: transparent;
+    color: #2c2c2c;
+    font-size: 1rem;
+    margin-bottom: 2%;
+} 
+.pic-container {
+    position: relative;
+    display: inline-block;
+    outline: 2px solid #639173;
+    margin-right: 20px;
+    margin-top: 5px;
+    width:150px;
+    height:150px;
+    border-radius: 23%;
+}
+.attraction-photo {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 23%;
+}
+.pic_desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width:100%;
+    height:100%;
+    border-radius: 23%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.pic_desc p {
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.pic-container:hover .pic_desc {
+    opacity: 1;
+    cursor: pointer;
+}
+#attractions_table {
+    width: 94%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+#attractions_table a {
+    color: inherit;
+  text-decoration: none; 
+}
+#attractions_table a:hover {
+    color: green; 
+  }
+td:nth-child(1), td:nth-child(3), td:nth-child(5), td:nth-child(7) {
+    width: 2%; 
+  }
+  th {
+      padding: 1%;
+  }
+  td:nth-child(2), td:nth-child(4),td:nth-child(6), td:nth-child(8) {
+      width: 12%; 
+    }
+#attraction_info {
+    margin-bottom: 5%;
+    }
+.info_attraction {
+        width: 80%;
+        margin-left: 55px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+.info_attraction a {
+    color: inherit;
+  text-decoration: none; 
+}
+.info_attraction a:hover {
+    color: green; 
+  }
+#attraction_info img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 2%;
+}
+#backButton{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+#backButton span {
+    background: transparent;
+    height: 38px;
+    width: 38px;
+   font-size: 1.3rem;
+   line-height: 38px;
+   color: #2c2c2c;
+  }

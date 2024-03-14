@@ -1,0 +1,5 @@
+{
+   "intelephense.environment.phpVersion": "8.2.4",
+    "phpserver.phpConfigPath": "\"C:\\xampp\\php\\php-8.2.4",
+    "phpserver.phpPath": "C:\\xampp\\php\\php-8.2.4"
+}

@@ -1,0 +1,230 @@
+.sidebar a:nth-child(6) { 
+    color: green;
+}
+.sidebar-menu__item-icon6 {
+    filter: invert(46%) sepia(27%) saturate(315%) hue-rotate(88deg) brightness(94%) contrast(92%);
+  }
+.mainbox #header{
+    width: 78%;
+    padding: 20px 0px 20px 0px;
+    color: #2c2c2c;
+    float: right;
+    margin-right: 4%;
+    margin-top: 6%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;  
+}
+#backButton {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+#editor-btns {
+    gap: 15px;
+}
+#saveButton {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid #639173;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background: #639173;
+    position: relative;
+    cursor: pointer;
+}
+#cancelButton {
+    display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #639173;
+  border: 1px solid #639173;
+  border-radius: 25px;
+  padding: 5px 30px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+  #backButton span {
+    background: transparent;
+    height: 38px;
+    width: 38px;
+   font-size: 1.3rem;
+   line-height: 38px;
+   color: #2c2c2c;
+  }
+  
+.ql-toolbar {
+    width: 80%;
+    float: right;
+    margin-right: 3%;
+    background: white;
+}  
+#editor h1 {
+  color: black;
+  background-color: transparent;
+}
+#backDrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+}
+.saveTrip_popup { 
+  z-index: 10;
+    width: 300px;
+    height: 180px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    transform: translate(50%, 50%);
+    text-align: center;
+    padding:  30px;
+    color: #2c2c2c;
+    visibility: hidden;
+}
+.updateTrip_popup { 
+  z-index: 10;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    transform: translate(50%, 50%);
+    text-align: center;
+    padding:  30px;
+    color: #2c2c2c;
+    visibility: hidden;
+}
+.saveTrip_popup header, .updateTrip_popup header {
+  color:#639173; 
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+}
+.saveTrip_popup p, .updateTrip_popup p {
+  font-size: 16px;
+  padding-top: 8%;
+  background: transparent;
+}
+.saveTrip_popup input, .updateTrip_popup input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  height: 25px;
+  width: 90%;
+  padding: 2% 5% 2% 5%;
+  outline: 0;
+  background-color: #eeeeee;
+}
+.saveTrip_popup input:hover, .updateTrip_popup input:hover {
+    border: 1.5px solid #eeeeee;
+    background-color: white;
+}
+.cancelTrip_popup { 
+  z-index: 10;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    transform: translate(50%, 50%);
+    text-align: center;
+    padding:  30px;
+    color: #2c2c2c;
+    visibility: hidden;
+}
+.open-popup{
+  visibility: visible;
+}
+.cancelTrip_popup header {
+  color:#639173; 
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+}
+.cancelTrip_popup p {
+  font-size: 16px;
+  padding-top: 8%;
+  padding-bottom: 15%;
+  background: transparent;
+}
+.trips_buttons {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 5%;
+  }
+  .trips_buttons a {
+    background-color: white;
+    
+  }
+  #trips-yes-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    color: #639173;
+    border: 1px solid #639173;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    background: white;
+  }
+  #saving-btn, #canceling-btn {
+    text-decoration: none;
+      font-weight: 500;
+      color: #ffffff;
+      border: 1px solid #639173;
+      border-radius: 25px;
+      padding: 5px 30px;
+      font-size: 12px;
+      background: #639173;
+      position: relative;
+      cursor: pointer;
+  }
+#editor {
+    width: 80%;
+    height: 500px;
+    float: right;
+    margin-right: 3%;
+    background: transparent;
+    
+}
+#errorMessage {
+  position: absolute;
+  font-size: 10px;
+  background-color: white;
+  color: red;
+  text-align: left;
+}
+#titleInput.error {
+  border: 1.5px solid red;
+}

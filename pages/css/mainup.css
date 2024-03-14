@@ -1,0 +1,122 @@
+.mainup-container {
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    width: 85%;
+    margin-left: 15%;
+    z-index: 2;
+}
+.mainup-container h1 {
+    color: black;
+    background: transparent;
+    font-weight: 600;
+    position: relative;
+    width: 27%;
+    margin-left: 60px;
+    margin-top: 25px;
+    margin-bottom:8px;
+    overflow: hidden;
+}
+.mainup-wrapper {
+    overflow: hidden;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    width: 50%;
+  }
+#search-icon {
+    position: absolute;
+    background: transparent;
+    top: 10px;
+    left: 1.5%;
+    font-size: 18px;
+  }
+#clear-icon {
+    position: absolute;
+    top: 10px;
+    right: 43%;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+  }
+#searching_form {
+    width: 50%;
+  }
+.mainup-search {
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+    height: 25px;
+    width: 100%;
+    padding: 5px 23px 5px 30px;
+    outline: 0;
+    background-color: #eeeeee; 
+}
+.mainup-search:hover, .mainup-search:focus {
+    border: 1.5px solid #eeeeee;
+    background-color: white;
+  }
+.mainup-notification {
+    overflow: hidden;
+    margin-top: 24px;
+    position: relative;
+    display: flex;
+   flex: 1;
+    justify-content: center; 
+}
+.mainup-container a {
+    display: flex;
+    overflow: hidden;
+}
+.mainup-notification img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .notif_button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+  #notif {
+    width: 1em; 
+    height: 1em; 
+    padding: 3%;
+    background: none;
+  }
+ .notif_button:hover  {
+    background-color: #E8E8E8;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .icon-button__badge {
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    border-radius: 50%;
+    display: none;
+  }
+  #notif_div {
+    position: absolute;
+    top: 70px;
+    right: 140px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 2px solid #F6CE74;
+    background-color: #FFE7B2;
+    height: 50px;
+    width: 140px;
+    z-index: 1;
+    display: none;
+  }

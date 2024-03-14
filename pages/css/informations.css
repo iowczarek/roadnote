@@ -1,0 +1,123 @@
+.sidebar a:nth-child(3) { 
+    color: green;
+}
+.sidebar-menu__item-icon3 {
+    filter: invert(46%) sepia(27%) saturate(315%) hue-rotate(88deg) brightness(94%) contrast(92%);
+  }
+.main_countries {
+    padding-top: 100px;
+}
+.heading h1  {
+    background: transparent;
+    color: #2c2c2c;
+    font-size: 1rem;
+    margin-left: 19%;
+}
+#countries_table  {
+    width: 68%;
+    margin-left: 22%;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+}
+#countries_table a {
+  color: inherit;
+  text-decoration: none; 
+}
+#countries_table a:hover {
+  color: green; 
+}
+td:nth-child(1), td:nth-child(3), td:nth-child(5), td:nth-child(7) {
+  width: 3%; 
+}
+th {
+    padding: 1%;
+}
+td:nth-child(2), td:nth-child(4),td:nth-child(6), td:nth-child(8) {
+    width: 14%;  
+  }
+.countries_info {
+    margin-left: 19%;
+    background: transparent;
+    color: #2c2c2c;
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+#tab1 h3 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+/* info under table */
+
+#backButton{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+#backButton span {
+    background: transparent;
+    height: 38px;
+    width: 38px;
+   font-size: 1.3rem;
+   line-height: 38px;
+   color: #2c2c2c;
+
+  }
+.info_country {
+  width: 90%;
+  height: 550px;
+  margin-left: 55px;
+}
+.photos-line {
+  position: relative;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.attractions-container {
+  position: relative;
+  display: inline-block;
+  outline: 5px solid #547c62;
+  margin-right: 30px;
+  margin-top: 5px;
+  width:250px;
+  height:250px;
+  border-radius: 23%;
+}
+.attraction-photo {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  border-radius: 23%;
+}
+.pic_desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  width:100%;
+  height:100%;
+  border-radius: 23%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pic_desc p {
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.attractions-container:hover .pic_desc {
+  opacity: 1;
+  cursor: pointer;
+}

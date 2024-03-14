@@ -1,0 +1,254 @@
+.sidebar a:nth-child(7) { 
+    color: green;
+    
+}
+.sidebar-menu__item-icon7 {
+    filter: invert(46%) sepia(27%) saturate(315%) hue-rotate(88deg) brightness(94%) contrast(92%);
+  }
+  .main {
+    display: flex;
+    padding-top: 100px;
+    margin-left: 19%;
+}
+  .left {
+    width: 40%;
+    
+  }
+  #del_acc button{
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    border: none;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .user-data {
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+    height: 30px;
+    width: 61%;
+    padding: 5px 25px 5px 30px;
+    outline: 0;
+    background-color: #eeeeee;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    cursor: not-allowed;
+  }
+  .sett_pass .material-symbols-sharp, .sett_email .material-symbols-sharp, .sett_name .material-symbols-sharp{ 
+    overflow: hidden;
+    margin-top: 1%;
+    position: absolute;
+    padding: 7px;
+    float:right;
+    right: 58%;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .right {
+    flex: 1;
+  }
+  #profile_pic {
+    width:400px;
+    height:400px;
+    margin: auto;
+    display: block;
+    padding: 4%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .pic_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  #delete_pic_btn, #canceling_btn{
+    text-decoration: none;
+    font-weight: 500;
+    color: #639173;
+    border: 1px solid #639173;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background: transparent;
+    cursor: pointer;
+    
+  }
+  #change_pic_btn, #del_canceling_btn {
+    text-decoration: none;
+      font-weight: 500;
+      color: #ffffff;
+      border: 1px solid #639173;
+      border-radius: 25px;
+      padding: 5px 30px;
+      font-size: 12px;
+      background: #639173;
+      cursor: pointer;
+  }
+
+ /* UPDATING PHOTO POPUP   */
+.updatePhoto, .updateName {
+  padding: 30px;
+  background: white;
+  border-radius: 30px; 
+  position: absolute;
+  top: 50%;
+  left:50%;
+  z-index: 10;
+  max-width: 350px;
+  width: 100%;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+.updatePhoto  header, .updateName header {
+  color:#639173; 
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+}
+.updateName form, .updatePhoto form {
+  background-color: white;
+}
+.updateName form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  height: 25px;
+  width: 90%;
+ padding: 2%;
+  outline: 0;
+  background-color: #eeeeee;
+}
+.updateName form input:hover {
+  border: 1.5px solid #eeeeee;
+    background-color: white;
+}
+.updatePhoto form input {
+  width: 100%;
+  padding: 2%;
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.updatePhoto  p, .updateName p {
+  font-size: 14px;
+  margin-top: 20px;
+  background-color: white;
+}
+.upload_buttons {
+  background-color: white;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.upload_buttons a {
+  background-color: white;
+}
+ /* DELETING PHOTO POPUP   */
+ .deletePhoto, .deleteAccount {
+  z-index: 10;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  top: 10%;
+  left: 28%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  padding:  30px;
+  color: #2c2c2c;
+  visibility: hidden;
+}
+.deletePhoto  header , .deleteAccount header {
+  color:#639173; 
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+}
+.deletePhoto a, .deleteAccount a {
+  display: 1;
+}
+
+.deletePhoto  p, .deleteAccount p {
+  font-size: 16px;
+  padding-top: 8%;
+  padding-bottom: 15%;
+  background: transparent;
+}
+.upload_buttons {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.upload_buttons a {
+  background-color: white;
+}
+#photo-yes-btn, #yes-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #639173;
+  border: 1px solid #639173;
+  border-radius: 25px;
+  padding: 5px 30px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+#cancel-btn {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid #639173;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background: #639173;
+    position: relative;
+    cursor: pointer;
+}
+#picBackDrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+}
+.pic-open-popup{
+  visibility: visible;
+}
+.status  {
+  width: 80%;
+}
+.status h2 .status_photo h2{
+   font-size: 12px;
+   font-weight: 500;
+}
+.bg-success {
+  color: green;
+  font-size: 12px;
+   font-weight: 500;
+}
+.bg-error {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+}
